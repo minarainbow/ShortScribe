@@ -5,8 +5,8 @@
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:title" content=""/>
+  <meta property="og:description" content=""/>
   <meta property="og:url" content="URL OF THE WEBSITE"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
@@ -14,8 +14,8 @@
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG"> -->
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>Making Short-Form Videos Accessible with Hierarchical Video Summaries</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,38 +52,42 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title publication-title">Making Short-Form Videos Accessible <br>with Hierarchical Video Summaries</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://www.linkedin.com/in/tess-van-daele" target="_blank">Tess Van Dale</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                    <a href="" target="_blank"> Akhil Iyer</a><sup>1</sup>,</span>
+                    <span class="author-block">
+                      <a href="" target="_blank">Yuning Zhang</a><sup>2</sup>,</span>
+                      <span class="author-block">
+                        <a href="https://www.linkedin.com/in/jalyn-derry/" target="_blank">Jalyn Derry</a><sup>1</sup>,</span>
+                      <span class="author-block">
+                        <a href="http://www.minahuh.com" target="_blank">Mina Huh</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="http://www.amypavel.com" target="_blank">Amy Pavel</a><sup>1</sup>,</span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">UT Austin<sup>1</sup>, Cornell University<sup>2</sup><br>ACM CHI 2024</span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                      <!-- <span class="link-block">
+                        <a href="https://dl.acm.org/doi/10.1145/3544548.3581494" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
                         <span>Paper</span>
                       </a>
-                    </span>
+                    </span> -->
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -91,10 +95,10 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
-                  <span class="link-block">
+                  <!-- <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -102,11 +106,11 @@
                     </span>
                     <span>Code</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2402.10382" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -114,6 +118,16 @@
                   <span>arXiv</span>
                 </a>
               </span>
+              <!-- Demo link -->
+              <span class="link-block">
+                <a 
+                class="external-link button is-normal is-rounded ">
+                <span class="icon">
+                  <i class="fa fa-image"></i>
+                </span>
+                <span>Code coming soon...</span>
+              </a>
+            </span>
             </div>
           </div>
         </div>
@@ -127,13 +141,11 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
+      <img src="static/images/teaser-revised.jpg" alt="The figure shows information from left to right. The most left is the original video represented as a single frame of a woman holding a bowl of salad with the text “Let's make the salad Jennifer Aniston ate every day on the set of Friends.” Two arrows point to the right from this picture. One points to the key frames which is a stack of single frames showing ingredients being added to a bowl. The other arrow points to the transcript of the video (transcribed with automatic speech recognition). 
+      Below the keyframes are two arrows (one labeled with the vision to language model  BLIP-2) and one labelled OCR both pointing to Keyframe Text \& Descriptions. To the right of the key frames, key frame text \& description and transcript is an arrow (labelled LLM GPT-4) pointing right to two descriptions which includes on-screen text description (“Let's make the salad Jennifer Aniston ate … 3 cups cooked quinoa 1 cup cucumber 1/3 cup red onion 1/2 cup roasted, salted pistachios 1/2 cup mint … Salt & pepper”) and the shot-by-shot-description (“Shot 1: A 3-second shot showing a lady holding a large salad bowl, mentioning she is making the salad Jennifer Aniston ate…Shot 10: The last shot ends with the woman eating the salad”). 
+      To the right of these two descriptions an arrow labelled LLM and GPT-4 points to a long description (“The video showcases a woman preparing and tasting a quinoa salad, attributed to Jennifer Aniston's diet on the 'Friends' set. The salad is made from quinoa, cucumber, …and pepper.”). To the right of the descriptions is an arrow also labelled LLM and GPT-4 pointing right to a short description (“Video shows woman making Jennifer Aniston's rumored 'Friends' quinoa salad.”)."/>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        <b>ShortScribe</b> makes short-form videos accessible with hierarchical video descriptions. ~\sysname{} extracts video data by identifying key frames then applying automatic speech recognition (ASR), automated description (BLIP-2), and optical character recognition (OCR). A large language model (GPT-4) then generates multiple descriptions.
       </h2>
     </div>
   </div>
@@ -148,7 +160,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Short videos on platforms such as TikTok, Instagram Reels, and YouTube Shorts (i.e. short-form videos) have become a primary source of information and entertainment. Many short-form videos are inaccessible to blind and low vision (BLV) viewers due to their rapid visual changes, on-screen text, and music or meme-audio overlays. In our formative study, 7 BLV viewers who regularly watched short-form videos reported frequently skipping such inaccessible content. We present ShortScribe, a system that provides hierarchical visual summaries of short-form videos at three levels of detail to support BLV viewers in selecting and understanding short-form videos. ShortScribe allows BLV users to navigate between video descriptions based on their level of interest. To evaluate ShortScribe, we assessed description accuracy and conducted a user study with 10 BLV participants comparing ShortScribe to a baseline interface. When using ShortScribe, participants reported higher comprehension and provided more accurate summaries of video content.
           </p>
         </div>
       </div>
@@ -158,127 +170,98 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <h2 class="title is-3">System</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+          <img src="static/images/Interface.jpg" width="50%" alt="The figure shows two screens of a mobile interface, one on the left and one on the right. Left: A still frame of a woman holding a bowl of salad. Within the video, there is text that reads “Let's make the salad Jennifer Aniston ate every day on the set of Friends.” Elements on top of the video are grouped into four groups A, B, C, and D. In group A, in the bottom left, video text information is displayed (marked with an A) including a short description (“Video shows woman making Jennifer Aniston's rumored 'Friends' quinoa salad.”), username (“@nourished.by.mads”), video caption (“This salad is actually AMAZING - no joke. Ingredients and measuring portions are all listed in the video #salad #saladrecipe #jenniferanistonsalad #friendstvshow #jeniferaniston”), and audio title (“Just a Cloud Away - @Pharell Williams”). The screen also includes button icons aligned vertically along the right of the screen. Group B is the top three buttons which includes previous (upward arrow), play/pause (play icon), next (downward arrow). Group C includes the video description button (information icon). Group D includes like (heart), comment (speech bubble), bookmark (save icon), and share (share icon). Right: A popup is shown that presents three descriptions and a close button in the top right corner. The text includes a long description (“The video showcases a woman preparing and tasting a quinoa salad, attributed to Jennifer Aniston's diet on the 'Friends' set. The salad is made from quinoa, cucumber, red onion, pistachios, mint, parsley, feta, chickpeas, lemon juice, olive oil, salt, and pepper.”), on-screen text (“Let's make the salad Jennifer Aniston ate every day on the set of Friends 3 cups cooked quinoa 1 cup cucumber 1/3 cup red onion 1/2 cup roasted, salted pistachios … 1/4 cup olive oil Salt & pepper”), and shot-by-shot-descriptions (“Shot 1: A 3-second shot showing a lady holding a large salad bowl, mentioning she is making the salad Jennifer Aniston ate every day on the set of Friends.Shot 2: In a 3-second span, we see a visual guide to preparing 3 cups of cooked quinoa. …”)."/>
+      <h2 class="subtitle has-text-centered">
+       The ShortScribe interface consists of (a) front screen video information including the short description, username, caption, and audio title, (b) video controls, (c) a button to open the description pane which includes the long description, on-screen text, and shot-by-shot descriptions, and (d) video statistics.
+      </h2>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
 
+<hr style="height: 1.2px; background-color: lightgray;">
 
-<!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+      <h2 class="title is-3">Pipeline</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <img src="static/images/pipeline.jpg" width="70%" alt="The figure shows a diagram of how the system works. From left to right, the diagram shows 4 groupings or columns, all connected by arrows pointing right. The first group includes Video and Keyframes with an arrow pointing downward from Video to Keyframes. From Video, there is an arrow that says ASR pointing right to Transcript which is in the second group. From Keyframes, there is an arrow that says VLM pointing right to Image Captions and another arrow that says OCR pointing right to on-screen text. Transcript, Image Captions, and on-screen text make up group 2 and are labeled at shot-by-shot details. From group 2, there are two arrows both saying LLM pointing right to long description and shot-by-short descriptions. From group 3, there is one arrow saying LLM pointing right to short description."/>
+      <h2 class="subtitle has-text-centered">
+       ShortScribe takes a video as input, transcribes the audio using automatic speech recognition (ASR), segments the video into shots, and selects the middle frame of each shot as a keyframe. It then processes the transcript, generated image captions (BLIP-2), and on-screen text (OCR) to produce video data for each keyframe. We use a large language model (GPT-4) to summarize this data into a short, long, and shot-by-shot description.
+      </h2>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
+<hr style="height: 1.2px; background-color: lightgray;">
 
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+      <h2 class="title is-3">Pipeline Evaluation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <img src="static/images/hallucinations.jpg" width="70%" alt="A horizontal bar graph of hallucination made by the pipeline. The x-axis is the percentage of videos. The y-axis on the left is description type, which lists (from top to bottom) long, short, 50-word, and per shot. The y-axis on the right is how many videos were analyzed for each description type, which lists (from top to bottom) 58, 58, 58, 18. Short descriptions had the highest percentage of videos with no hallucinations, having 40 out of 58 with no hallucination. The per-shot descriptions had the lowest percentage of videos with no hallucinations, having 7 out of 18 with no hallucination."/>
+          <h2 class="subtitle has-text-centered">
+            We analyzed hallucinations in descriptions for 58 videos (long, short, 50-word descriptions) and for a subsample of 18 videos (per shot descriptions). Descriptions for each video contained 0-7 hallucinations. Short descriptions had the lowest percentage of videos with hallucinations, while shot-by-shot descriptions had the highest percentage of videos with hallucinations.
+        </h2>
+        <img src="static/images/error-analysis.jpg" width="50%" style="margin-top: 5%;" alt="A horizontal bar graph of hallucination made by the pipeline. The x-axis is the percentage of videos. The y-axis on the left is description type, which lists (from top to bottom) long, short, 50-word, and per shot. The y-axis on the right is how many videos were analyzed for each description type, which lists (from top to bottom) 58, 58, 58, 18. Short descriptions had the highest percentage of videos with no hallucinations, having 40 out of 58 with no hallucination. The per-shot descriptions had the lowest percentage of videos with no hallucinations, having 7 out of 18 with no hallucination."/>
+        <h2 class="subtitle has-text-centered">
+          An analysis of the errors in one of the 2 of 58 videos that had more than three errors in the short description. The video depicts a lighthearted singalong. BLIP-2 mistakenly recognizes a toddler concentrating on singing as angry, and the on-screen text shows a quiz with the lyrics to to a sad song (All To Well by Taylor Swift). The long description and then short description incorrectly infer that the video is sad.
+      </h2>
+        </div>
       </div>
     </div>
-  </section>
-<!--End paper poster -->
+  </div>
+</section>
+<hr style="height: 1.2px; background-color: lightgray;">
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">User Evaluation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <img src="static/images/short-video-understanding.jpg"  alt="The figure shows two figures. 
+          Left: A vertical bar graph titled “Video Understanding Summary Scores.” The x-axis is video title, listing (from left to right) V1, V4, V6, V2, V7, V5, V3, V8. The y-axis is the average score participants got on their summaries of the videos, listing (from top to bottom) 100\%, 80\%, 60\%, 40\%, 20\%, 0. Each video has two bars, the one on the left being blue (representing participants who used our system) and the one on the right being red (representing participants who used the baseline). V1 has the most significant difference between the system which scored 92\% and the baseline which scored 6\%. V4 had the least difference where the system and baseline both scored 75%.
+          Right: A vertical bar graph titled “Video Understanding Ratings.” The x-axis is video title, listing (from left to right) V5, V1, V4, V3, V8, V7, V6, V2. The y-axis is the average accessibility rating participants gave each on a scale from 1 (not accessible) to 7 (accessible), listing (from top to bottom) 7, 5, 3, 1. Each video has two bars, the one on the left being blue (representing participants who used our system) and the one on the right being red (representing participants who used the baseline). V5 has the most significant difference between the system which scored 6.3 and the baseline which scored 1.5. V4 had the least difference between the system which scored 6 and the baseline which scored 6.5."/>
+          <h2 class="subtitle has-text-centered">
+            Video comprehension for videos V1-V8 using our system (left, blue) and a baseline interface (right, orange) measured by scoring participant written video summaries (Video Summary Scores) and participant's ratings of their video understanding (Video Understanding Ratings). Ratings of the video understanding ranged from 1, did not understand, to 7, completely understood. Error bars depict the 95% confidence interval.
+        </h2>
+        <img src="static/images/feature_ranking.jpg" width="50%" style="margin-top: 5%;" alt="A horizontal bar graph titled Feature Usefulness Ratings. The x-axis is the number of participants (1 to 10) and the y-axis shows features which read (from top to bottom), “Long description, short description, per shot description, ocr description, original caption, engagement numbers, audio source, username.” The horizontal bars are filled with colors correlating to how the participants ranked the usefulness of each feature, red being definitely not useful and blue being definitely useful. The first four descriptions had overall high ratings while the last four had much lower ratings. "/>
+        <h2 class="subtitle has-text-centered">
+          Participants rated the usefulness of each feature for understanding the video. The description features (first four features) are provided by ShortScribe only, and the remaining features (last four features)  were originally available on the short-form video platform. Engagement numbers refers to the number of likes, comments, and bookmarks.
+      </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@article{van2024making,
+        title={Making Short-Form Videos Accessible with Hierarchical Video Summaries},
+        author={Van Daele, Tess and Iyer, Akhil and Zhang, Yuning and Derry, Jalyn C and Huh, Mina and Pavel, Amy},
+        journal={arXiv preprint arXiv:2402.10382},
+        year={2024}
+      }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -291,8 +274,8 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
